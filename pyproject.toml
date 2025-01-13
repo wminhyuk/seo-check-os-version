@@ -17,3 +17,8 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+
+[project.urls]
+Homepage = "https://github.com/wminhyuk/seo-check-os-version"
+Issues = "https://github.com/wminhyuk/seo-check-os-version/issues"
