@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "<wminhyuk>", email = "<seoseo1998@gmail.com>"},
 ]
-dependencies = []
+dependencies = ["stundrg-check-os-ver>=0.2.3", "check-os-ver>=0.2.1"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}

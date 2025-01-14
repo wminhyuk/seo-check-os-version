@@ -5,7 +5,29 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:6e3746c7427353cd94cfd6c1a5a6309fdfd871714e3b1213ded2befc6ef522a0"
+content_hash = "sha256:5b2397f14a2dab7a180f4f749a1ae990e41cafe5edd2591a69c6f15451318869"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
+
+[[package]]
+name = "check-os-ver"
+version = "0.2.1"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "check_os_ver-0.2.1-py3-none-any.whl", hash = "sha256:16611c9ca27ea8ddc89ce87ccbbf3d25bbf114856cf6c5be4bb936c99914090e"},
+    {file = "check_os_ver-0.2.1.tar.gz", hash = "sha256:f99d0889432a520b26f3bd51f43077304505071edf42f38c63fbcaf2d4f41ad2"},
+]
+
+[[package]]
+name = "stundrg-check-os-ver"
+version = "0.2.3"
+requires_python = ">=3.10"
+summary = "Utility that checks the name and version of the operating system."
+groups = ["default"]
+files = [
+    {file = "stundrg_check_os_ver-0.2.3-py3-none-any.whl", hash = "sha256:35736bd2c8c23f944f41adaa7ffdf9a4497978bd68fc4ae039500c0601606845"},
+    {file = "stundrg_check_os_ver-0.2.3.tar.gz", hash = "sha256:7dc6cc7439017e2526219bd5132710fffc0b1c3fadaec91fde9fb30bcea6707b"},
+]
