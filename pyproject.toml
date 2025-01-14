@@ -25,3 +25,9 @@ Issues = "https://github.com/wminhyuk/seo-check-os-version/issues"
 [project.scripts]
 seo-hi = "seo_check_os_version.hi:hi"
 seo-random = "seo_check_os_version.hi:random_match"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
