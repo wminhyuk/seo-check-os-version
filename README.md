@@ -1,4 +1,4 @@
-'''bash
+Development environment setting
 # install PDM
 # git clone ...
 $ source .venv/bin/activate
@@ -14,12 +14,13 @@ $ git commit -a
 $ git push
 $ git publish
 
-#USE
+USE
 
-pdm install
-python
-from seo_check_os_version.hi import hi
-hi()
+$ pip install cho-check-os-ver
+$ python
+>>> from cho_check_os_ver.hi  import hi
+>>> hi()
+
 
 
 # seo-check-os-version
