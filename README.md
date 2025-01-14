@@ -23,7 +23,3 @@ hi()
 
 
 # seo-check-os-version
-
-[project.scripts]
-seo-hi = "seo_check_os_version.hi:hi"
-seo-random = "seo_check_os_version.hi:random_pic"
