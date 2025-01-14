@@ -1,6 +1,24 @@
 # seo-check-os-version
 
-Development environment setting
+### hi()
+```bash
+"""
+                      /^--^\     /^--^\     /^--^\
+                      \____/     \____/     \____/
+                     /      \   /      \   /      \
+KAT                 |        | |        | |        |
+                     \__  __/   \__  __/   \__  __/
+|^|^|^|^|^|^|^|^|^|^|^|^\ \^|^|^|^/ /^|^|^|^|^\ \^|^|^|^|^|^|^|^|^|^|^|^|
+| | | | | | | | | | | | |\ \| | |/ /| | | | | | \ \ | | | | | | | | | | |
+########################/ /######\ \###########/ /#######################
+| | | | | | | | | | | | \/| | | | \/| | | | | |\/ | | | | | | | | | | | |
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|
+
+"""
+```
+
+### Development environment setting
+```bash
 # install PDM
 # git clone ...
 $ source .venv/bin/activate
@@ -15,14 +33,12 @@ $ git add <FILE_NAME>
 $ git commit -a
 $ git push
 $ git publish
+```
 
-USE
-
+### USE
+```bash
 $ pip install cho-check-os-ver
 $ python
 >>> from cho_check_os_ver.hi  import hi
 >>> hi()
-
-
-
-# seo-check-os-version
+```
